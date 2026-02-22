@@ -55,7 +55,6 @@ npm install dotenv
 ### 4. Frontend
 
 ```bash
-cd frontend
 npm install
 npm run dev
 ```
@@ -68,7 +67,7 @@ Frontend runs at http://localhost:5173.
 
 | Method | Path               | DB       | Description                              |
 |--------|--------------------|----------|------------------------------------------|
-| GET    | /api/ping          | —        | Health check                             |
+| GET    | /api/ping          |          | Health check                             |
 | GET    | /api/leaderboard   | MySQL    | Get all scores sorted by score desc      |
 | POST   | /api/leaderboard   | MySQL    | Add/update a player score                |
 | POST   | /api/contact       | MongoDB  | Save a contact message                   |
