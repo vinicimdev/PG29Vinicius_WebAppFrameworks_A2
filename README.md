@@ -34,14 +34,22 @@ npm run dev
 The server starts at http://localhost:3000.
 
 **Environment variables:**
-| Variable          | Default           |
-|-------------------|-------------------|
-| MYSQL_HOST        | localhost         |
-| MYSQL_USER        | root              |
-| MYSQL_PASSWORD    | (empty)           |
-| MYSQL_DB          | clicker_game      |
-| MONGO_URI         | mongodb://localhost:27017 |
-| MONGO_DB          | clicker_game      |
+
+- Create a file named `.env` and paste these variables there:
+- If this doesn't work, make sure that the `dotenv` dependency is properly installed on the backend.
+
+```bash
+npm install dotenv
+```
+
+```bash
+MYSQL_HOST=localhost
+MYSQL_USER=root
+MYSQL_PASSWORD=spencer
+MYSQL_DB=clicker_game
+MONGO_URI=mongodb://localhost:27017
+MONGO_DB=clicker_game
+```
 
 ### 4. Frontend
 
