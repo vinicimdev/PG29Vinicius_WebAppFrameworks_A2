@@ -1,7 +1,3 @@
--- Run this only if you want to manually set up the database.
--- The server creates everything automatically on startup,
--- but you can run this to reset or inspect.
-
 CREATE DATABASE IF NOT EXISTS clicker_game;
 USE clicker_game;
 

@@ -1,11 +1,28 @@
 import { ref, computed } from 'vue'
 import { defineStore } from 'pinia'
 
+// TypeScript interfaces to enforce types
 export interface UserName {
     first: string
     last: string
 }
 
+// Fun fact (maybe not so fun?)
+// Could have done like this:
+/*
+export interface User {
+    id: string
+    studentId: string
+    name: {
+        first: string
+        last: string
+    }
+    email: string
+    role: string
+}
+
+But having the UserName interface having the `first` and `last` makes the code more modular and easier to read :)
+*/ 
 export interface User {
     id: string
     studentId: string

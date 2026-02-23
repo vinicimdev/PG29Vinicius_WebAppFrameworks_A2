@@ -76,7 +76,7 @@
         if (!validate()) return
         await userStore.login(
             email.value,
-            firstName.value || undefined,
+            firstName.value,
             lastName.value || undefined
         )
         if (userStore.isLoggedIn) {

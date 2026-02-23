@@ -1,7 +1,7 @@
-import 'dotenv/config'
 import express, { type Request, type Response } from "express";
 import cors from "cors";
 import mysql from "mysql2/promise";
+import 'dotenv/config'
 import { MongoClient, type Db } from "mongodb";
 
 const app = express();
