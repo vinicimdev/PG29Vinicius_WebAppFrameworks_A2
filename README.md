@@ -42,7 +42,7 @@ MYSQL_HOST=localhost
 MYSQL_USER=root
 MYSQL_PASSWORD=spencer
 MYSQL_DB=clicker_game
-MONGO_URI=mongodb://localhost:27017
+MONGO_URI=mongodb+srv://spencer:spencer@pg29vinicius.net2zxs.mongodb.net/?appName=PG29Vinicius
 MONGO_DB=clicker_game
 ```
 
